@@ -5,10 +5,8 @@ A simple and intuitive To-Do List application built with React. Easily manage yo
 ## Features
 
 - **Add Tasks:** Quickly add new tasks to your to-do list.
-- **Edit Tasks:** Update task descriptions as needed.
 - **Delete Tasks:** Remove tasks you no longer need.
 - **Mark as Complete:** Check off tasks when they're done.
-- **Filter Tasks:** View all, active, or completed tasks.
 - **Persistent Storage:** Tasks are saved in your browser's local storage.
 
 ## Getting Started
@@ -59,8 +57,8 @@ npm run build
 
 1. Enter a task in the input field and click "Add" to create a new to-do.
 2. Click the checkbox to mark a task as complete.
-3. Use the edit or delete buttons to modify or remove tasks.
-4. Use the filter options to view all, active, or completed tasks.
+3. Use the delete buttons to remove tasks.
+4. View all task, active, or completed tasks.
 
 ## Contributing
 
