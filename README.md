@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# React To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and intuitive To-Do List application built with React. Easily manage your daily tasks, mark them as complete, and stay organized!
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add Tasks:** Quickly add new tasks to your to-do list.
+- **Edit Tasks:** Update task descriptions as needed.
+- **Delete Tasks:** Remove tasks you no longer need.
+- **Mark as Complete:** Check off tasks when they're done.
+- **Filter Tasks:** View all, active, or completed tasks.
+- **Persistent Storage:** Tasks are saved in your browser's local storage.
 
-### `npm start`
+## Getting Started
+![alt text](image.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) and npm installed on your machine.
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/todo_list_app.git
+    cd todo_list_app
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-### `npm run build`
+### Run the json server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start run the command to run the json server from the file of data.json
+```bash
+sudo npx json-server -p 4000 -w src/data/db.json
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Different port number can use instead of 4000 .
+If you change port please change the port number in the file of src/api/apiResource.js of url's port.
+open [http://localhost:4000/todolist](http://localhost:4000/todolist) in your browser to view the running api server
+### Running the App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the development server:
+```bash
+npm start
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-### `npm run eject`
+### Building for Production
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To create an optimized production build:
+```bash
+npm run build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Enter a task in the input field and click "Add" to create a new to-do.
+2. Click the checkbox to mark a task as complete.
+3. Use the edit or delete buttons to modify or remove tasks.
+4. Use the filter options to view all, active, or completed tasks.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[MIT](LICENSE)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ using
