@@ -1,0 +1,24 @@
+{
+  "todolist": [
+    {
+      "id": "1",
+      "task": "Learn React",
+      "complete": true
+    },
+    {
+      "id": "2",
+      "task": "Build a Todo App",
+      "complete": true
+    },
+    {
+      "id": "c0feae1b-4fbe-4b17-9f35-671b0165fc26",
+      "task": "HTML",
+      "complete": false
+    },
+    {
+      "id": "c9e49585-2418-4ebb-8325-3372616e378e",
+      "task": "Learn CSS",
+      "complete": false
+    }
+  ]
+}
